@@ -7,7 +7,7 @@ function setup() {
   createCanvas(400, 400);
   background(51);
   var button = createButton("Random point");
-  button.mousePressed(randomDot());
+  button.mousePressed(randomDot);
 }
 
 function gradientDescent() {
