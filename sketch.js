@@ -77,8 +77,8 @@ function mousePressed() {
 }
 
 function randomDot() {
-  var x = map(random(0, 400), 0, width, 0, 1);
-  var y = map(random(0, 400), 0, width, 1, 0); 
+  var x = map(random(0, 40), 0, width, 0, 1);
+  var y = map(random(0, 40), 0, width, 1, 0); 
   
   var point = createVector(x,y);
   data.push(point);
